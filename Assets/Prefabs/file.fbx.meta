@@ -1,7 +1,7 @@
 fileFormatVersion: 2
 guid: 46978a4fc42864807b15f0af8c1b2a14
 ModelImporter:
-  serializedVersion: 24200
+  serializedVersion: 24501
   internalIDToNameTable: []
   externalObjects:
   - first:
@@ -29,11 +29,22 @@ ModelImporter:
       assembly: UnityEngine.CoreModule
       name: Paper.005
     second: {fileID: 2100000, guid: e4b7dcf642cb6469face6456e3d7b871, type: 2}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: family
+    second: {fileID: 2800000, guid: 5eac0afbc9b9a43dbbdd2459da1b6c0e, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: paper-6_smoothness
+    second: {fileID: 2800000, guid: 4b27f0a9c9aa1499d897f6e22d04eff7, type: 3}
   materials:
     materialImportMode: 2
     materialName: 0
     materialSearch: 1
     materialLocation: 1
+    searchTexturesGlobally: 1
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0
@@ -84,6 +95,8 @@ ModelImporter:
     generateMeshLods: 0
     meshLodGenerationFlags: 0
     maximumMeshLod: -1
+    importUVs: -1
+    importVertexColors: 1
     meshOptimizationFlags: -1
     indexFormat: 0
     secondaryUVAngleDistortion: 8
@@ -103,6 +116,7 @@ ModelImporter:
     legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
     blendShapeNormalImportMode: 1
     normalSmoothingSource: 0
+    calculateBlendshapeNormalsDeltaFromImportedNormals: 1
   referencedClips: []
   importAnimation: 1
   humanDescription:
